@@ -1,0 +1,48 @@
+.map{
+    
+    margin-top: 100px;
+}
+.map_inner{
+    background-color: #cafa19;
+}
+
+.map_display{
+    /* background-color: red; */
+    width: 100%;
+    padding: 40px !important;
+}
+
+.map_embed{
+    width: 100%;
+}
+
+.map_heading{
+    /* background-color: red; */
+    font-size: 40px;
+}
+
+.map_contact_info{
+    /* background-color: green; */
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.map_contact_title{
+    font-size: 30px;
+}
+
+.map_contact_value{
+    font-size: 20px;
+}
+
+@media( max-width : 700px){
+    .map_contact_title{
+        font-size: 25px;
+    }
+    .map_contact_value{
+        font-size: 18px;
+    }
+    .map_contact_info{
+        flex-direction: column;
+    }
+}
